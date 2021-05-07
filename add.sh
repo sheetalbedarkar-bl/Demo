@@ -3,9 +3,9 @@
 x=100
 y=100
 result=$(($x+$y))
-echo $result
+echo The result of first computation : $result
 
 read -p 'Enter the first number : ' num1
 read -p "Enter the second number : " num2
 result2=$(($num1+$num2))
-echo $result2
+echo The result of second computation : $result2
